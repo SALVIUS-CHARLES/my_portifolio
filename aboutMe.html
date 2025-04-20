@@ -1,0 +1,121 @@
+<!-- aboutMe.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('stars.PNG');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        nav ul {
+            list-style: none;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            align-items: center;
+        }
+        nav ul li a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+            align-items: center;
+
+        }
+        #about {
+            padding: 40px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 600px;
+        }
+        #about h2 {
+            color: gold;
+        }
+        main {
+            flex: 1;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            font-size: 14px;
+            width: 100%;
+        }
+
+        footer .social-media {
+            margin-top: 10px;
+        }
+
+        footer .social-media a {
+            margin: 0 10px;
+            display: inline-block;
+        }
+
+        footer .social-media img {
+            width: 30px; /* Adjust size as needed */
+            height: 30px;
+            transition: transform 0.3s ease;
+        }
+
+        footer .social-media img:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutMe.html">About Me</a></li>
+            <li><a href="project.php">Projects</a></li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p> My name is SALVIUS CHARLES. I began a career in IT in 2022 as a student at
+                Mbeya University of Science and Technology, a Government University. I focused on studying 
+                web development and Graphics design same as machine learning development.
+                My interest is to be a web developer in the World so as to make IT grow more and 
+                more.
+            </p>
+        </section>
+    </main>
+    <footer>
+        Copyright All Rights Reserved © 2025 | Developed by Salvius Charles
+        <div class="social-media">
+            <a href="https://www.tweeter.com" target="_blank">
+                <img src="TWEET.PNG" alt="Tweeter" />
+            </a>
+            <a href="https://www.whatsapp.com" target="_blank">
+                <img src="TSAPP.PNG" alt="WhatsApp" />
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
